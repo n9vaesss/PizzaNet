@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+.selecao{
+    display: flex;
+    margin: 60px auto;
+    width: 80%
+}
+
+.selecao .divSelecao{
+    display: grid;
+    margin: auto;
+    width: 250px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.selecao .divSelecao:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.selecao .divSelecao p{
+    margin-left: 5px;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.selecao .divSelecao h1{
+    margin: auto;
+    color: #f26136;
+    font-weight: normal;
+}
+
+.selecao .divSelecao .medalha{
+    margin: auto;
+    width: 45px;
+}
+
+.selecao .divSelecao .DPizza{
+    width: 40px;
+    margin: auto;
+}
+
+.selecao .divSelecao .DFone{
+    width: 60px;
+    margin: auto;
+}
+
+@media (max-width: 1150px){
+    .selecao{
+        display: block;
+    }
+}

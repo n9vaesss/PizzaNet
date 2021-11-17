@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+.pizzaHeader{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.pizzaHeader .imgHeader{
+    width: 100%;
+    height: 400px;
+    opacity: 0.3;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.pizzaHeader .LogoPHeader{
+    width: 210px;
+    margin-top: 2px;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+}
+
+.pizzaHeader .LogoWHeader{
+    width: 30px;
+    margin-top: 5px;
+    position: absolute;
+    top: 10px;
+    right: 230px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pizzaHeader .LogoWHeader:hover{
+    transition: 0.3s;
+    background-color: #ec5e33;
+}
+
+.pizzaHeader .LogoFHeader{
+    width: 38px;
+    margin-top: 2px;
+    position: absolute;
+    top: 10px;
+    right: 185px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pizzaHeader .LogoFHeader:hover{
+    transition: 0.3s;
+    background-color: #ec5e33;
+}
+
+.pizzaHeader .LogoIHeader{
+    width: 38px;
+    margin-top: 2px;
+    position: absolute;
+    top: 10px;
+    right: 145px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pizzaHeader .LogoIHeader:hover{
+    transition: 0.3s;
+    background-color: #ec5e33;
+}
+
+.pizzaHeader .containerLC{
+    background-color: #ec5e33;
+    position: absolute;
+    top: 0px;
+    right: 280px;
+    width: 225px;
+    display: flex;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.pizzaHeader .containerLC .LoginHeader{
+    margin: 15px auto;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.pizzaHeader .containerLC .LoginHeader:hover{
+    transition: 0.5s;
+    color: #f1c7bb;
+}
+
+.pizzaHeader .FraseTopo{
+    position: absolute;
+    top: 170px;
+    right: 25%;
+    
+}
+
+.pizzaHeader .FraseTopo h1{
+    font-family: Garamond;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+}
+
+.pizzaHeader .FraseTopo p{
+    font-family: Calibri;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+@media screen and (min-width: 1700px){
+
+    .pizzaHeader{
+        height: 540px;
+        
+    }
+    
+    .pizzaHeader .imgHeader{
+        
+        height: 540px;
+        
+    }
+
+    .pizzaHeader .LogoPHeader{
+        width: 250px;
+        top: 100px;
+    }
+
+    .pizzaHeader .FraseTopo{
+        top: 200px;
+    }
+
+    .pizzaHeader .FraseTopo h1{
+        font-family: Garamond;
+        font-size: 90px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .pizzaHeader .FraseTopo p{
+        font-family: Calibri;
+        font-style: italic;
+        font-size: 30px;
+        font-weight: normal;
+    }
+    
+    
+}
