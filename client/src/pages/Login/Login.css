@@ -37,8 +37,9 @@
 
 .main-alinha .div-alinha-topo .form-Login .form-error-login{
     color: rgb(237, 67, 55);
-    font-size: 13px;
+    font-size: 14px;
     margin: auto;
+    display: block;
 }
 
 .main-alinha .div-alinha-topo .input-login{

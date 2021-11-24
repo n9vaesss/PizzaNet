@@ -30,7 +30,7 @@ function App() {
   }
 
   const handleClickCompras = () =>{
-      if(cookies.user == 1){
+      if(cookies.user > 0){
         history.push('/compras')
       }else{
         history.push('/login')

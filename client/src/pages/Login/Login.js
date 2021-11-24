@@ -20,17 +20,25 @@ function Login(){
             login: values.login,
             password: values.password,
         }).then((response) =>{
-            
-            setCookies("user", response.data.msg,{
-                path: "/"
-            })
             if( response.data.msg == 1 ){
                 alert("Usuario logado")
                 history.push('/')
             }else{
                 alert(" Usuario ou senha incorretos ")
             }
-        })}
+        })
+
+        Axios.post("http://localhost:3333/idusuario",{
+            login: values.login,
+        }).then((response) =>{
+            setCookies("user", response.data[0].id_usuario,{
+                path: "/"
+            })
+            console.log(response.data[0].id_usuario)
+        })
+    }
+
+       
 
     const validationLogin = yup.object().shape({
         login: yup

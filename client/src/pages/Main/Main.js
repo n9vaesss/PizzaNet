@@ -11,6 +11,7 @@ function Main(){
             <Detalhes/>
             <CarrosselP/>
             <CarrosselB/>
+            
         </>
     )
 }

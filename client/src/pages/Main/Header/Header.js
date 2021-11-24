@@ -12,7 +12,7 @@ function App() {
         <div className = "pizzaHeader">
 
           <img src = {PizzaHeader} className = "imgHeader"/>
-          <img src = {LogoPizza} className = "LogoPHeader"/>
+          <a href="/"><img src = {LogoPizza} className = "LogoPHeader"/></a>
           <a href="#"><img src = {LogoWapp} className = "LogoWHeader"/></a>
           <a href="#"><img src = {LogoFB} className = "LogoFHeader"/></a>
           <a href="#"><img src = {Logoinsta} className = "LogoIHeader"/></a>

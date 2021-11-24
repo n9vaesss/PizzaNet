@@ -43,6 +43,7 @@
 .pizzaHeader .LogoWHeader:hover{
     transition: 0.3s;
     background-color: #ec5e33;
+    cursor: pointer;
 }
 
 .pizzaHeader .LogoFHeader{
@@ -58,6 +59,7 @@
 .pizzaHeader .LogoFHeader:hover{
     transition: 0.3s;
     background-color: #ec5e33;
+    cursor: pointer;
 }
 
 .pizzaHeader .LogoIHeader{
@@ -73,6 +75,7 @@
 .pizzaHeader .LogoIHeader:hover{
     transition: 0.3s;
     background-color: #ec5e33;
+    cursor: pointer;
 }
 
 .pizzaHeader .containerLC{

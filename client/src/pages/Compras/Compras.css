@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+
+.info-alinha-compras-pizza { grid-area: pizza}
+.info-alinha-compras-bebidas { grid-area: bebidas }
+
+.info-alinha-compras{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: 
+    'pizza bebidas'
+    ;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza {
+    margin-top: 50px;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral{
+    padding:10px
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .img-compras{
+    display:inline;
+    border-radius: 20px;
+    width: 200px;
+    border-style: solid;
+    border-color: #ec5e33;
+    border-width: 2px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.img-compras { grid-area: img-pizza; }
+.nome-pizza-compras { grid-area: nome; }
+.preco-pizza-compras { grid-area: preco; }
+.ingredientes-pizza-compras { grid-area: ingredientes; }
+.botao-subtracao { grid-area: subt; }
+.botao-adicao { grid-area: adi; }
+.botao-teste { grid-area: txt; }
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral{
+   display: grid;
+   grid-template-areas:
+        'img-pizza nome nome nome nome ' 
+        'img-pizza ingredientes ingredientes ingredientes ingredientes '
+        'img-pizza preco subt txt  adi  '
+   ;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .nome-pizza-compras{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f26136;
+    padding-left: 10px;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .ingredientes-pizza-compras{
+    width: 447px;
+    margin-top: 20px;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .preco-pizza-compras{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-subtracao{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-style: none;
+    background-color: #ec5e33;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    transition: 200ms;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-subtracao:hover{
+    cursor: pointer;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-subtracao:active{
+    box-shadow: none;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-adicao{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-style: none;
+    background-color: #ec5e33;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    transition: 200ms;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-adicao:hover{
+    cursor: pointer;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-adicao:active{
+    box-shadow: none;
+}
+
+.info-alinha-compras .info-alinha-img-compras-pizza .div-pizza-geral .botao-teste{
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.divprincipalcompra{
+    display:grid;
+}
+
+.divprincipalcompra .btn-carrinho{
+    margin:50px auto;
+    border-radius: 20px;
+    height: 50px;
+    border-style: none;
+    width: 300px;
+    background-color: #f26136;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 300ms;
+    box-shadow: 2px 2px 15px black;
+    cursor: pointer;
+}

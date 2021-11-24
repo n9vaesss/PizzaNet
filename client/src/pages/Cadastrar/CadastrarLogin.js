@@ -4,7 +4,6 @@ import * as yup from 'yup'
 import Axios from 'axios'
 import { useHistory } from 'react-router'
 import Logo from "../../componentes/img/logo-da-pizza.png"
-import InputMask from "react-input-mask";
 import "./CadastrarLogin.css"
 
 function Cadastrar(){
@@ -68,7 +67,7 @@ function Cadastrar(){
                 onSubmit = {onSubmitCadastro}
                 validationSchema = {validationCadastro}
                 >
-                    <Form >
+                    <Form>
 
                         <div className = "form-LoginC">
                             <div className = "div-alinha-topo-login">

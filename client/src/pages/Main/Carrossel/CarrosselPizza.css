@@ -16,16 +16,13 @@
   .container{
     max-width: 75vw;
     margin: auto;
-    border-bottom-color: #f26136;
-    border-bottom-style: solid ;
-    border-width: 0.5px;
     padding: 20px;
   }
 
   .container .expo{
     margin: auto;
     color: #f26136;
-    width: 80px;
+    width: 100px;
     font-weight: normal;
   }
   
@@ -101,9 +98,11 @@
   }
   
   .container .buttons{
-    width: 100%;
+    margin: auto;
+    width: 150px;
     text-align: center;
   }
+
   
   .container .buttons button{
     background-color: transparent;
@@ -129,14 +128,13 @@
     color: white;
     font-size: 20px;
     font-weight: 500;
-    transition: 300ms;
+    box-shadow: 0px 0px 5px black;
   }
 
 .alinha-botao-enviar .botao-enviar-comprar:hover{
-  box-shadow: 2px 2px 15px black;
   cursor: pointer;
 }
 
-.alinha-botao-enviar .botao-enviar-comprar:click{
-  scale: -0.3;
+.alinha-botao-enviar .botao-enviar-comprar:active{
+  box-shadow: none;
 }

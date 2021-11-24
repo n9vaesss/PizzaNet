@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+.principal-div-carrinho{
+    display: grid;
+}
+
+.txt-nome-carrinho{padding: 15px;grid-area: carrinhonome}
+.linha-carrinho-1{ grid-area: linha1}
+.div-produtos-carrinho{ grid-area: produtos}
+.div-quantidade-carrinho{ grid-area: quant}
+.div-preco-carrinho{ grid-area: preco}
+.linha-carrinho-2{ grid-area: linha2}
+.nada { grid-area: nada }
+.total-carrinho { font-size: 1.2rem; grid-area: total }
+.botao-remover{ grid-area: botao }
+
+
+.principal-div-carrinho .org-carrinho{ 
+    padding: 30px;
+    width: 55%;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    
+    'carrinhonome carrinhonome carrinhonome carrinhonome'
+    'linha1 linha1 linha1 linha1'
+    'produtos quant preco botao'
+    'linha2 linha2 linha2 linha2' 
+    'nada nada total total'
+    ;
+}
+
+.principal-div-carrinho .org-carrinho .div-produtos-carrinho{ 
+    padding: 20px;
+}
+
+.principal-div-carrinho .org-carrinho .div-quantidade-carrinho{ 
+    text-align: center;
+    padding: 20px;
+}
+
+.principal-div-carrinho .org-carrinho .div-preco-carrinho{ 
+    text-align: right;
+    padding: 20px;
+}
+
+.principal-div-carrinho .org-carrinho .total-carrinho{ 
+    font-weight: bold;
+    margin-left: 70px;
+    padding: 20px;
+}
+
+.principal-div-carrinho .org-carrinho .botao-remover{
+    margin: auto;
+    border-radius: 10px;
+    height: 50px;
+    width: 78px;
+    border-style: none;
+    background-color: #f26136;
+    color: white;
+    font-size: 18px;
+    transition: 300ms;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.principal-div-carrinho .org-carrinho .botao-remover:active{
+    box-shadow: none
+}
+
+
+.principal-div-carrinho .btn-carrinho{
+    margin:50px auto;
+    border-radius: 20px;
+    height: 50px;
+    border-style: none;
+    width: 300px;
+    background-color: #f26136;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 300ms;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
